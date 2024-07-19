@@ -7,9 +7,6 @@ import foodData from '../data.js';
 const LanDingPage = () => {
     const [data,setData]= useState(foodData);
 
-
-
-
     return (
         <div className="container-fluid">
             <LandingPageRow item={data[0]} item1={data[1]} item2={data[2]} item3={data[3]}/>
@@ -18,5 +15,4 @@ const LanDingPage = () => {
         </div>
     );
 }
-
 export default LanDingPage;

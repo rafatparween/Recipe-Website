@@ -9,7 +9,7 @@ const LanDingPageCol = ({ id, img, description, price,name }) => {
                     <div className='imageContainer'>
                         <div className='dataImage'><img src={img} alt="food" className='image' /></div>
                     </div>
-                    <h4>{price}</h4>
+                    <h4>₹<span>{price}</span></h4>
                     <h6>{name}</h6>
                     <p>{description}</p>
                 
