@@ -1,0 +1,53 @@
+.item-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.4s ease;
+}
+
+.item-detail {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 376px;
+    text-align: center;
+    padding: 20px;
+    border: solid 4px whitesmoke;
+}
+
+.item-detail-container:hover{
+    transform: scale(1.05);
+}
+
+
+.image-container {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+
+h4 {
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-top: 10px;
+    font-family: auto;
+}
+
+button{
+    background-color: green;
+    color: #fff;
+    font-size: 19px;
+    height: 46px;
+    width: 104px;
+    border-radius: 9px;
+}
