@@ -70,4 +70,17 @@ span{
     font-size: 21px;
      color: #555;
      padding: 5px;
- }
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    width: 98px;
+    align-items: center;
+    border-radius: 5px;
+}
