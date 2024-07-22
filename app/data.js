@@ -125,4 +125,3 @@ const foodData= [
 
 ]
 export default foodData;
-
