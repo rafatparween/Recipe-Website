@@ -13,7 +13,7 @@ export default function Home() {
           Help & Support
         </h1>
         <p className="text-lg text-white text-center mb-16">
-          Let's take a step ahead and help you better.
+          Lets take a step ahead and help you better.
         </p>
         <div className="bg-white p-8 rounded-md shadow-md">
           <div className="flex justify-between items-center mb-4 cursor-pointer" onClick={() => setShowPartnerOnboarding(!showPartnerOnboarding)}>
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
               <div className="py-2">
                 <p className="text-gray-600">
-                  I don't have an FSSAI licence for my restaurant. Can it still be onboarded?
+                  I dont have an FSSAI licence for my restaurant. Can it still be onboarded?
                 </p>
               </div>
             </div>
