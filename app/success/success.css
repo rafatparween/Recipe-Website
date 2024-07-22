@@ -1,0 +1,25 @@
+h1 {
+    color: green;
+    font-size: xx-large;
+    font-family:"auto"
+}
+
+.successContainer {
+    border: solid 2px whitesmoke;
+    width: 33%;
+    padding: 50px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9; 
+}
+
+.successContainer p {
+    font-size: 1.2rem;
+    
+}
+
+.conform{
+    color:brown;
+}
