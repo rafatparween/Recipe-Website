@@ -1,6 +1,6 @@
 'use client';
-import Image from 'next/image';
 import React from 'react';
+
 
 const offers = [
     {
@@ -64,7 +64,7 @@ const offers = [
 const OfferCard = ({ offer }) => {
     return (
         <div className="border rounded-lg shadow p-3 w-full sm:w-1/1 md:w-1/1 lg:w-1/1">
-            <img src={offer.image} alt={offer.title} className="w-full h-64 object-cover rounded mb-4" />
+            <img src={offer.image} alt={offer.title} width={660} height={360} className="w-full h-64 object-cover rounded mb-4" />
             <div className="flex justify-between items-center mb-2">
                 <h3 className="text-lg font-bold">{offer.title}</h3>
                 <span className="bg-green-500 text-white rounded-full px-2 py-1 text-sm">{offer.rating}</span>
@@ -87,7 +87,6 @@ const OffersList = () => {
                 ))}
             </div>
         </div>
-
     );
 };
 
