@@ -1,6 +1,4 @@
 "use client"
-import Image from "next/image";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
@@ -18,7 +16,7 @@ const NavBar = () => {
         <div className="flex items-center space-x-2 w-1/4 font-medium text-lg md:w-1/5 lg:w-1/5">
           <Link legacyBehavior href="/restaurants">
             <a>
-              <Image
+              <img       
                 className="w-10 h-10 transition-transform duration-800 hover:scale-125 md:w-8 md:h-8 lg:w-12 lg:h-12"
                 src="https://cdn.iconscout.com/icon/free/png-64/swiggy-1613371-1369418.png"
                 alt="Logo" 

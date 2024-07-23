@@ -1,12 +1,12 @@
 'use client';
 import './success.css'
 import { useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 
-const Success = () => {
+const SuccessContent = () => {
   const searchParams = useSearchParams();
   const itemName = searchParams.get('itemName');
   const itemPrice = searchParams.get('itemPrice');
-
 
   return (
     <div className='successContainer'>
@@ -16,7 +16,14 @@ const Success = () => {
   );
 };
 
+const Success = () => (
+  <Suspense fallback={<div>Loading...</div>}>
+    <SuccessContent />
+  </Suspense>
+);
+
 export default Success;
+
 
 
 // 'use client';
