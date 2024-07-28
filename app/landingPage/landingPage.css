@@ -1,9 +1,8 @@
-/* landingPage.css */
-
 @media (min-width: 1400px) {
     .container-fluid {
         max-width: 1320px;
         margin: auto;
+        margin-top: 84px;
     }
 }
 

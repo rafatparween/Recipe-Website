@@ -1,4 +1,4 @@
-.item-detail-container {
+/* .item-detail-container {
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -7,12 +7,12 @@
 
 .item-detail {
     background: #fff;
+    margin: auto;
+    margin-top: 50px;
     border-radius: 10px;
     overflow: hidden;
     max-width: 376px;
     text-align: center;
-    margin: auto;
-    margin-top: 59px;
     padding: 20px;
     border: solid 4px whitesmoke;
 }
@@ -58,4 +58,4 @@ span{
     font-size: 21px;
      color: #555;
      padding: 5px;
- }
+ } */

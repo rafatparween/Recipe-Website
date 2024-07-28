@@ -1,3 +1,4 @@
+import Image from 'next/image';
 const foodData= [
     {
         id:1,
@@ -125,4 +126,3 @@ const foodData= [
 
 ]
 export default foodData;
-
